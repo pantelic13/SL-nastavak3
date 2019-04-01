@@ -35,6 +35,7 @@ Ako želite da saznate čime je frizerski salon Gagi zaslužio poverenje i lojal
         <br />
         <br />
         <br />
+        <p></p>
 
    
         <a class="btn btn-primary" href="Login.aspx" role="button">Ulogujte se</a> 
