@@ -6226,6 +6226,8 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
+    top: 27px;
+    left: -1px;
 }
 
 .carousel-inner::after {
@@ -6257,6 +6259,10 @@ a.close.disabled {
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
+    top: -31px;
+    left: 10px;
+    height: 613px;
+    width: 99%;
 }
 
 .carousel-item-next:not(.carousel-item-left),

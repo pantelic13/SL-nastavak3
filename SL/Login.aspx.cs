@@ -40,7 +40,8 @@ public partial class Login : System.Web.UI.Page
             {
                 Session["Klijent"] = Username;
                 Session["tip"] = Klijent.Rows[0]["tip_korisnika"].ToString();
-                Session["Ime"] = Klijent.Rows[0][3].ToString();
+                Session["Ime"] = Klijent.Rows[0]["Ime"].ToString();
+                Session["KlijentId"] = Klijent.Rows[0]["KlijentId"].ToString();
 
                 SqlConnection conn = Konekcija.Connect();
                 SqlCommand komanda = new SqlCommand("update Klijent set Username where Username = '" + TextBox1.Text + "'", conn);

@@ -3,41 +3,30 @@
 <!DOCTYPE html>
 
 <html>
-
-
 <head runat="server">
-        <meta charset="utf-8" />
+            <meta charset="utf-8" />
       <link href="Content/bootstrap.css" rel="stylesheet" />
      <script src="Scripts/jquery-3.0.0.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     
   <link href="StyleSheet.css" rel="stylesheet" />
-   
     <title> 
-       
-
-     <asp:ContentPlaceHolder ID="title" runat="server">
+        <asp:ContentPlaceHolder ID="title" runat="server">
           </asp:ContentPlaceHolder>
-        </title>
+    </title>
     <link href="StyleSheet.css" rel="stylesheet" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
-  <style type="text/css">
+    <style type="text/css">
         .auto-style1 {
             height: 24px;
             margin-top: 21px;
         }
     </style>
 </head>
-    <body>
-
-    <body style="height: 658px">
-         
-    
-   <form id="form1" runat="server">
+<body style="height: 658px">
+    <form id="form1" runat="server">
         <div class="wrapper">
-        
-            
             <div class="menu">
                <ul>
 
@@ -45,65 +34,30 @@
                    <li><a href="O nama.aspx">O nama</a></li>
                    <li><a href="Usluge.aspx">Usluge</a></li>
                    <li><a href="Zakazivanje.aspx">Zakazivanje</a></li>
-                   <li><a href ="index.aspx">Log off</a></li>
+                    <li><a href="index.aspx">Log off</a></li>
 
                </ul>
              </div>
 
-            <div class="clear">&nbsp;&nbsp; </div>
+            <div class="clear"></div>
     <div class="conten">
-        <br />
         <asp:ContentPlaceHolder id="contentBody" runat="server">
         
         </asp:ContentPlaceHolder>
         </div>
-
-
-    </div>
-
-
-
             
                
             
              
             <div class="clear">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-            
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-             
+              
+     
             </div>
             <div class="footer">
                 <h2 class="auto-style1">Copyrigt@Sandra Pantelic </h2>
-            </div> 
+            </div>
            
-  
+    </div>
     </form>
-      
-
-   
-
 </body>
 </html>

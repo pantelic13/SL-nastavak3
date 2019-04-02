@@ -21,7 +21,8 @@
     </style>
 
 </head>
-<body class="pozadina">
+<body class="pozadina" >
+
 
     <div class="container shadow">
         <div class ="row">

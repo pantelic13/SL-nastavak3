@@ -19,7 +19,7 @@ namespace SL
 
         
         static string myServer = Environment.MachineName;
-        static string CS = ("Data Source = DESKTOP-JCLATHG; Initial Catalog = Online; Integrated Security = True");
+        static string CS = ("Data Source =DESKTOP-8B00S2O; Initial Catalog = Online; Integrated Security = True");
         static public SqlConnection Connect()
         {
             SqlConnection conn = new SqlConnection(CS);

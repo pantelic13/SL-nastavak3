@@ -113,6 +113,7 @@
              </div>
             </div>
         <div class="auto-style1">
+             <div class="container shadow  ">
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="Label1" runat="server" Text="Zakažite Vaš termin" Font-Bold="True" Font-Italic="True" Font-Names="Arial" Font-Size="X-Large"></asp:Label>
@@ -192,13 +193,13 @@
                         <br />
                         <br />
                         <div class="auto-style14">
-                        <asp:RadioButtonList ID="RadioButtonList1" runat="server" Visible="False" Font-Bold="True" Font-Italic="True" Font-Names="Arial" DataSourceID="SqlDataSource1" DataTextField="Ime" DataValueField="Ime">
+                        <asp:RadioButtonList ID="RadioButtonList1" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Arial" DataSourceID="SqlDataSource3" DataTextField="Ime" DataValueField="RadnikId">
                             <asp:ListItem>Šišanje</asp:ListItem>
                             <asp:ListItem>Feniranje</asp:ListItem>
                             <asp:ListItem>Farbanje</asp:ListItem>
                             <asp:ListItem>Izvlačenje pramenova</asp:ListItem>
                         </asp:RadioButtonList>
-                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [Ime] FROM [Radnik]"></asp:SqlDataSource>
+                            <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [RadnikId], [Ime] FROM [Radnik]"></asp:SqlDataSource>
                         </div>
                         <br />
                         <br />
@@ -207,12 +208,12 @@
                 <tr>
                     <td class="auto-style10"><strong><em>Izaberite Tretman</em></strong></td>
                     <td class="auto-style11">
-                        <asp:DropDownList ID="DropDownList3" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Arial" Height="30px" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged" Width="172px" DataSourceID="SqlDataSource2" DataTextField="Naziv_tretmana" DataValueField="Naziv_tretmana">
+                        <asp:DropDownList ID="DropDownList3" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Arial" Height="30px" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged" Width="172px" DataSourceID="SqlDataSource1" DataTextField="Naziv_tretmana" DataValueField="TretmanId">
                             <asp:ListItem>Dusica</asp:ListItem>
                             <asp:ListItem>Tanja</asp:ListItem>
                             <asp:ListItem>Zivkica</asp:ListItem>
                         </asp:DropDownList>
-                        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [Naziv_tretmana] FROM [Tretman]"></asp:SqlDataSource>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [TretmanId], [Naziv_tretmana] FROM [Tretman]"></asp:SqlDataSource>
                     </td>
                 </tr>
                 <tr>
@@ -225,6 +226,7 @@
             <br />
             <asp:Label ID="Label4" runat="server" BorderColor="#993366" Font-Bold="True" Font-Italic="True" Font-Names="Arial" Font-Size="X-Large"></asp:Label>
         </div>
+            </div>
          <div class="footer">
                 <h2 class="auto-style1">Copyrigt@Sandra Pantelic </h2>
             </div>

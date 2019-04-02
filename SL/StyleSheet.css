@@ -1,8 +1,13 @@
-﻿body, div, dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p
-block{
+﻿/*reset*/*/
+body, div, dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p
+{
+	padding:0;
+	margin: 0;
+}
+/*block{
     padding: 0;
     margin: 0;
-}
+}*/
 /*body*/
 body {
     background-color: antiquewhite;
@@ -56,9 +61,8 @@ body {
     list-style:none;
     border-right:1px solid rgb(10,85,125);
     border-left: 1px solid rgb(67,153,200);
-    width: 1px;
-    height: 18px;
-    margin-left: 208px;
+    height: 40px;
+    width: 166px;
 }
 .menu ul li.navigation_first_item:hover{
     border-radius:5px,0px,0px,5px;
@@ -79,14 +83,14 @@ body {
 .clear{
     clear: both;
 }
-.menu{    width: 101%;
+/*.menu{    width: 101%;
 }
-
+*/
 
 
 /*Footer*/
 .footer {
-    height: 56px;
+    height: 50px;
     background-color: rgb(10,110,178);
     color: rgb(255,255,255);
     border-radius: 5px 5px 5px 5px;

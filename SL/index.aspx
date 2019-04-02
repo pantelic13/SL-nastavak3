@@ -25,7 +25,14 @@
     <div class="carousel-item">
       <img class="d-block w-100" src="Slike1/izvlacenje-pramenova-na-foliju-za-dugu-kosu-boban-frizerski-salon.jpg" alt="Third slide">
        </div>
-      </div>
+       <div class="carousel-item">
+      <img class="d-block w-100" src="Slike1/slike-sisanja-svih-duzina-kose-za-zene-sa-feniranjem-u-frizerskom-salonu-le-charme.jpg" alt="Third slide">
+       </div>
+      <div class="carousel-item">
+      <img class="d-block w-100" src="Slike1/frizure-za-vjencanja-naslovna-810x400.jpg" alt="Third slide">
+       </div>
+
+ </div>
                 </div>
                     </div>
     </asp:Content>
