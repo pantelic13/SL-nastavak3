@@ -14,7 +14,7 @@
             
             <div class="col-6 justify-content-center">
                  <h2>O nama</h2>
-Od samog početka uspeli smo da se izdvojimo kvalitetom, znanjem, ljubaznošću i perfektnom komunikacijom sa svojim klijentima. Uvek dobro raspoloženje salona Gagi trudi se da svoju kreativnost, iskustvo i veštine stavi u službu Vaše kose, kako bi ona što bolje izgledala na obostrano zadovoljstvo. 
+Od samog početka uspeli smo da se izdvojimo kvalitetom, znanjem, ljubaznošću i perfektnom komunikacijom sa svojim klijentima. Uvek dobro raspoloženje salona ... trudi se da svoju kreativnost, iskustvo i veštine stavi u službu Vaše kose, kako bi ona što bolje izgledala na obostrano zadovoljstvo. 
 
 
 Salon je opremljen najnovijom kozmetikom poznatih svetskih brendova poput: Bedhead, Barex, Aeto Botanica i Matrix koji nesumnjivo postižu visoke rezultate u nezi kože glave i kose.
@@ -36,7 +36,7 @@ Ako želite da saznate čime je frizerski salon ... zaslužio poverenje i lojaln
     <div>
         </div>
       
-    <a class="btn btn-primary" href="Registracija.aspx" role="button">Registrujete se</a>     <a class="btn btn-primary" href="Login.aspx" role="button">Ulogujte se</a> 
+    <a class="btn btn-primary" href="Registracija.aspx" role="button">Registrujete se</a>    <!-- <a class="btn btn-primary" href="Login.aspx" role="button">Ulogujte se</a> !-->
     
     <br />
         <br />

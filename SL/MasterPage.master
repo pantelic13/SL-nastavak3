@@ -34,7 +34,7 @@
                    <li><a href="O nama.aspx">O nama</a></li>
                    <li><a href="Usluge.aspx">Usluge</a></li>
                    <li><a href="Zakazivanje.aspx">Zakazivanje</a></li>
-                    <li><a href="index.aspx">Log off</a></li>
+                    <li><a href="Login.aspx">Login</a></li>
 
                </ul>
              </div>

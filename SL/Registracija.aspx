@@ -22,9 +22,9 @@
                <ul>
 
                 <li class="navigation_first_item"><a href="index.aspx">Home</a></li>
-                   
+                   <li><a href="O nama.aspx">O nama</a></li>
                    <li><a href="Usluge.aspx">Usluge</a></li>
-                   <li><a href="Zakazivanje.aspx">Zakazivanje</a></li>
+                  <!-- <li><a href="Zakazivanje.aspx">Zakazivanje</a></li>!-->
 
                </ul>
              </div>
